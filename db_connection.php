@@ -1,8 +1,8 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
-$database = "tet_db";
+$servername = "servername";
+$username = "username";
+$password = "password";
+$database = "Database name";
 
 $conn = mysqli_connect($servername, $username, $password, $database);
 if (!$conn){
