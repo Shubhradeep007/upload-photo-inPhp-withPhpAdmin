@@ -1,3 +1,7 @@
+//you can create a database and a table, In my case it table name images. you can find sql in the code file.
+
+
+
 <?php
 if(isset($_POST['submit']) && isset($_FILES['my_image']))
 {
